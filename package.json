@@ -1,15 +1,16 @@
 {
   "name": "connectorx",
   "version": "1.0.0",
-  "description": "",
+  "description": "Rxjs websocket wrapper",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
+    "prepublish": "npm run build",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["rxjs", "websocket", "json", "reconnect"],
+  "author": "@rhrn",
+  "license": "BSD",
   "peerDependencies": {
     "rxjs": "^6.5.5"
   },
