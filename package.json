@@ -1,12 +1,17 @@
 {
   "name": "connectorx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rxjs websocket wrapper",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib",
     "prepublish": "npm run build",
     "test": "jest"
+  },
+  "homepage": "https://github.com/rhrn/connectorx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhrn/connectorx.git"
   },
   "keywords": ["rxjs", "websocket", "json", "reconnect"],
   "author": "@rhrn",
